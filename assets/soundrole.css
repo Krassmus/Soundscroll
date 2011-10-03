@@ -52,3 +52,18 @@ a {
 	float: left;
 	height: 200px;
 }
+#footer {
+	text-align: center;
+	font-family: bankgothic md bt, bankgothic, OCR A Extended, courier new, courier;
+	font-size: 0.6em;
+	letter-spacing: 0.0em;
+	color: #cccccc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#footer a {
+	color: #cccccc;
+}
+#footer a:hover {
+	color: #aaaaaa;
+}

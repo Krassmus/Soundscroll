@@ -15,4 +15,5 @@ $content = Template::summon(dirname(__file_)."/templates/tabulator.php")
 
 echo $template = Template::summon(dirname(__file__)."/templates/layout.php")
 	->with("content", $content)
+	->with("footer", Template::summon(dirname(__file__)."/templates/footer.php")->render())
 	->render();
